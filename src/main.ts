@@ -1,31 +1,6 @@
 import './style.css';
+import * as wordsModule from "./russian_words.json"
 
-const langText = <HTMLSpanElement>document.querySelector("#langText");
-const Card = <HTMLDivElement>document.querySelector("#Card");
+const words = wordsModule.default 
 
-interface CardItem {
-  text: string;
-  translation: string;
-}
-
-const words: CardItem[] = [
-  {
-    text: "Кот",
-    translation: "Cat",
-  },
-  {
-    text: "кровать",
-    translation: "Bed",
-  },
-  {
-    text: "Привет",
-    translation: "Hello",
-  },
-  {
-    text: "Врач",
-    translation: "Doctor",
-  },
-];
-
-
-console.log(langText, words, Card)
+console.log(words)
