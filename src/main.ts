@@ -26,3 +26,6 @@ const words: CardItem[] = [
     translation: "Doctor",
   },
 ];
+
+
+console.log(langText, words, Card)
