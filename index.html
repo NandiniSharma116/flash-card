@@ -2,15 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="shortcut icon" href="https://p1.hiclipart.com/preview/22/757/136/the-flash-logo-educational-flash-cards-nhl-19-game-video-games-study-skills-icon-design-line-png-clipart.jpg" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FlashCard App</title>
+    <title>FlashCard App - Learn new languages using flash Card</title>
   </head>
   <body>
     <div
       id="app"
       class="flex flex-col justify-center items-center h-[100vh] from-pink-500 to-purple-800 bg-gradient-to-b"
     >
+    <button id="start" class="mb-5 text-3xl hover:text-black text-white">START</button>
       <div
         id="Card"
         class="rounded-2xl h-1/2 w-2/3 flex-wrap bg- flex justify-center items-center from-amber-500 to-pink-400 bg-gradient-to-br"
@@ -21,8 +22,8 @@
       </center>
       </div>
       <div class="mt-20">
-        <button id="correct" class="mx-10 text-2xl lg:text-5xl bg-white p-3 rounded-2xl border-2 border-lime-600 hover:bg-lime-500">✔</button>
-        <button id="wrong" class="mx-10 text-2xl lg:text-5xl bg-white p-3 rounded-2xl border-2 border-red-800 hover:bg-red-600">❌</button>
+        <button id="correct" class="hidden mx-10 text-2xl lg:text-5xl bg-white p-3 rounded-2xl border-2 border-lime-600 hover:bg-lime-500">✔</button>
+        <button id="wrong" class="hidden mx-10 text-2xl lg:text-5xl bg-white p-3 rounded-2xl border-2 border-red-800 hover:bg-red-600">❌</button>
       </div>
     </div>
     <script type="module" src="/src/main.ts"></script>
