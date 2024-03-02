@@ -26,19 +26,3 @@ const words: CardItem[] = [
     translation: "Doctor",
   },
 ];
-
-const showWord = (check: string) => {
-  setTimeout(() => {
-    console.log(check);
-  }, 3000);
-};
-
-const game = async () => {
-  for (const word of words) {
-    langText.innerText = word.text;
-    await new Promise((resolve) => setTimeout(resolve, 3000));
-    showWord(word.translation);
-  }
-};
-
-game();
